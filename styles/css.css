@@ -1,0 +1,72 @@
+table {
+    font: 1em sans-serif;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+table td, table th {
+    border: 1px solid black;
+    padding: 0.5em 0.5em 0.4em;
+}
+
+table thead th {
+    color: white;
+    background: black;
+}
+
+table tbody td + td {
+    text-align: center;
+}
+
+table tbody td:last-child {
+    text-align: right
+}
+
+table tfoot th {
+    text-align: right;
+    border-top-width: 5px;
+    border-left: none;
+    border-bottom: none;
+}
+
+table th + td {
+    text-align: right;
+    border-top-width: 5px;
+    color: white;
+    background: black;
+}
+
+.with-currency[lang="en-US"] td:last-child::before {
+    content: '$';
+}
+
+.with-currency[lang="fr"] td:last-child::after {
+    content: ' €';
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    30% {
+        transform: rotate(180deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+
+}
+
+p {
+    color: hsla(200,50%,50%,0.5);
+    width: 100px;
+    font-size: 40px;
+    transform-origin: center;
+}
+
+p:hover {
+    animation-name: rotate;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count:1;
+}
