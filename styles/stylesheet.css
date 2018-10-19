@@ -45,45 +45,45 @@ ul {
     margin-right: 4px;
 }
 
-/*a {*/
-/*text-decoration: none;*/
-/*color: black;*/
-/*}*/
+a {
+text-decoration: none;
+color: black;
+}
 
-/*a:focus {*/
-/*text-decoration: underline;*/
-/*color: red;*/
-/*}*/
+a:focus {
+text-decoration: underline;
+color: red;
+}
 
-/*a:hover {*/
-/*background-color: greenyellow;*/
-/*}*/
+a:hover {
+background-color: greenyellow;
+}
 
-/*a:active {*/
-/*background-color: yellow;*/
-/*}*/
+a:active {
+background-color: yellow;
+}
 
-/*[data-vegetable]{*/
-/*color: green;*/
-/*}*/
-/*[data-vegetable="liquid"]{*/
-/*background-color: goldenrod;*/
-/*}*/
-/*[data-vegetable~="spicy"]{*/
-/*color: red;*/
-/*}*/
-/*[lang|="fr"]{*/
-/*font-weight: bold;*/
-/*}*/
-/*[data-vegetable*="not spicy"]{*/
-/*color: green;*/
-/*}*/
-/*[data-quantity$="kg"]{*/
-/*font-weight: bold;*/
-/*}*/
-/*[data-quantity^="optional"]{*/
-/*opacity:0.5;*/
-/*}*/
+[data-vegetable]{
+color: green;
+}
+[data-vegetable="liquid"]{
+background-color: goldenrod;
+}
+[data-vegetable~="spicy"]{
+color: red;
+}
+[lang|="fr"]{
+font-weight: bold;
+}
+[data-vegetable*="not spicy"]{
+color: green;
+}
+[data-quantity$="kg"]{
+font-weight: bold;
+}
+[data-quantity^="optional"]{
+opacity:0.5;
+}
 
 a {
     color: blue;
