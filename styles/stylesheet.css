@@ -6,7 +6,8 @@ h1 {
 }
 
 p {
-    color: red;
+    color: black;
+    /*line-height: 1.5;*/
 }
 
 li {
@@ -26,28 +27,42 @@ ul {
     padding: 0;
 }
 
-
-a {
-    text-decoration: none;
-    color: black;
+[href^=http]::after {
+    content: '⤴';
 }
 
-a:focus{
-    text-decoration: underline
-;
-    color: red
-;
+#Pseudo::first-line {
+    font-weight: bold;
 }
 
-a:hover{
-    background-color: #ccc
-;
+#Pseudo::first-letter {
+    font-size: 3em;
+    border: 1px solid black;
+    background: red;
+    display: block;
+    float: left;
+    padding: 2px;
+    margin-right: 4px;
 }
 
-a:active{
-    background-color: #eee
-;
-}
+/*a {*/
+/*text-decoration: none;*/
+/*color: black;*/
+/*}*/
+
+/*a:focus {*/
+/*text-decoration: underline;*/
+/*color: red;*/
+/*}*/
+
+/*a:hover {*/
+/*background-color: greenyellow;*/
+/*}*/
+
+/*a:active {*/
+/*background-color: yellow;*/
+/*}*/
+
 /*[data-vegetable]{*/
 /*color: green;*/
 /*}*/
@@ -70,13 +85,14 @@ a:active{
 /*opacity:0.5;*/
 /*}*/
 
-/*a{*/
-/*color: blue;*/
-/*font-weight: bold;*/
-/*}*/
-/*a:visited{*/
-/*color: blue;*/
-/*}*/
+a {
+    color: blue;
+    font-weight: bold;
+}
+
+a:visited {
+    color: blue;
+}
 
 /*a:hover,a:active,a:focus{*/
 /*color: darkred;*/
