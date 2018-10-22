@@ -1,0 +1,23 @@
+html {
+    font-family: sans-serif;
+}
+
+/* Your CSS below here */
+
+body {
+    text-align: center;
+
+}
+
+p {
+    width: 200px;
+    height: 30px;
+    font-size: 1.1rem;
+    background: aqua linear-gradient(to left top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
+
+    margin: 30% auto;
+    text-shadow: 1px 1px 5px black;
+    border: darkblue solid 1px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
+}
