@@ -1,18 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0dbb985-6e27-431d-82c1-1a9257b8c70e" name="Default" comment="divide 1">
-      <change afterPath="$PROJECT_DIR$/JavaScript_Learn/apply-javascript.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript_Learn/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript_Learn/number-games.html" afterDir="false" />
+    <list default="true" id="e0dbb985-6e27-431d-82c1-1a9257b8c70e" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/JavaScript_Learn/number-error.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/css_learn/Layout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/combinators.html" beforeDir="false" afterPath="$PROJECT_DIR$/css_learn/combinators.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/css_learn/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/list-css.html" beforeDir="false" afterPath="$PROJECT_DIR$/css_learn/list-css.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/panel.html" beforeDir="false" afterPath="$PROJECT_DIR$/css_learn/panel.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styling_boxes.html" beforeDir="false" afterPath="$PROJECT_DIR$/css_learn/styling_boxes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styling_text.html" beforeDir="false" afterPath="$PROJECT_DIR$/css_learn/styling_text.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,11 +23,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="number-games.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="number-games.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JavaScript_Learn/number-games.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="-2140">
+              <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="number-error.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JavaScript_Learn/number-error.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="185">
+              <caret line="54" column="23" lean-forward="true" selection-start-line="54" selection-start-column="23" selection-end-line="54" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -114,6 +114,7 @@
         <option value="$PROJECT_DIR$/JavaScript_Learn/index.html" />
         <option value="$PROJECT_DIR$/JavaScript_Learn/apply-javascript.html" />
         <option value="$PROJECT_DIR$/JavaScript_Learn/number-games.html" />
+        <option value="$PROJECT_DIR$/JavaScript_Learn/number-error.html" />
       </list>
     </option>
   </component>
@@ -146,11 +147,6 @@
             <path>
               <item name="GitHub" type="b2602c69:ProjectViewProjectNode" />
               <item name="GitHub" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GitHub" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GitHub" type="462c0819:PsiDirectoryNode" />
-              <item name="css_learn" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GitHub" type="b2602c69:ProjectViewProjectNode" />
@@ -242,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1540191342085</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="divide 1">
+      <created>1540261441120</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1540261441121</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView">
@@ -256,15 +259,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32929516" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32819384" />
-      <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32819384" />
+      <window_info anchor="bottom" id="Python Console" order="7" weight="0.32929516" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2428884" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2428884" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -340,7 +344,8 @@
     <MESSAGE value="1.1" />
     <MESSAGE value="1.2" />
     <MESSAGE value="css completed!" />
-    <option name="LAST_COMMIT_MESSAGE" value="css completed!" />
+    <MESSAGE value="divide 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="divide 1" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/JavaScript_Learn/index.html">
@@ -533,8 +538,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JavaScript_Learn/number-games.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="-2140">
+          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScript_Learn/number-error.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="54" column="23" lean-forward="true" selection-start-line="54" selection-start-column="23" selection-end-line="54" selection-end-column="23" />
         </state>
       </provider>
     </entry>
