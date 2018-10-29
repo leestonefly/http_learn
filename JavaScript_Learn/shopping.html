@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Shopping list example</title>
+	<style>
+		li {
+			margin-bottom: 10px;
+		}
+
+		li button {
+			font-size: 8px;
+			margin-left: 20px;
+			color: #666;
+		}
+
+		li span{
+			font-size: 20px;
+
+		}
+	</style>
+</head>
+<body>
+
+<h1>My shopping list</h1>
+
+<div>
+	<label for="item">Enter a new item:</label>
+	<input type="text" name="item" id="item">
+	<button>Add item</button>
+</div>
+
+<ul>
+
+</ul>
+
+<script>
+    let ul = document.querySelector('ul');
+    let input = document.querySelector('#item');
+    let button = document.querySelector('button');
+
+    button.onclick = function () {
+        let test = input.value;
+        input.value = '';
+        let liCreat = document.createElement('li');
+        let spanCreat = document.createElement('span');
+        let buttonCreat = document.createElement('button');
+
+        ul.appendChild(liCreat);
+        liCreat.appendChild(spanCreat);
+        liCreat.appendChild(buttonCreat);
+        spanCreat.textContent = test;
+        buttonCreat.textContent = 'Delete';
+
+        // liCreat.appendChild(spanCreat);
+        // liCreat.appendChild(buttonCreat);
+
+        buttonCreat.addEventListener('click', deleteLi);
+
+        //
+        function deleteLi() {
+            ul.removeChild(liCreat);
+            input.focus();
+        }
+
+        input.focus();
+    };
+
+
+</script>
+</body>
+</html>
