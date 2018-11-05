@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0dbb985-6e27-431d-82c1-1a9257b8c70e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/JavaScript_Learn/ajax/cd_catalog" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript_Learn/ajax/demo_test" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript_Learn/ajax/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript_Learn/ajax/ajax_post.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript_Learn/ajax/demo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript_Learn/ajax/index_get.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/jQuery_v3.3.1.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/jQuery_v3.3.1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript_Learn/ajax/cd_catalog" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript_Learn/ajax/cd_catalog.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript_Learn/ajax/index.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -55,7 +56,7 @@
       <file leaf-file-name="bouncing.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/bouncing.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1121">
+            <state relative-caret-position="19">
               <caret line="59" selection-start-line="59" selection-end-line="59" />
             </state>
           </provider>
@@ -70,11 +71,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/JavaScript_Learn/ajax/index.html">
+      <file leaf-file-name="index_get.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JavaScript_Learn/ajax/index_get.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="760">
+              <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ajax_post.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JavaScript_Learn/ajax/ajax_post.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="20" column="6" lean-forward="true" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="demo" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JavaScript_Learn/ajax/demo">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -83,13 +102,13 @@
         <entry file="file://$PROJECT_DIR$/JavaScript_Learn/ajax/demo_test">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="34" lean-forward="true" selection-start-column="34" selection-end-column="34" />
+              <caret column="34" selection-start-column="34" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cd_catalog" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JavaScript_Learn/ajax/cd_catalog">
+      <file leaf-file-name="cd_catalog.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JavaScript_Learn/ajax/cd_catalog.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="380">
               <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
@@ -190,8 +209,13 @@
         <option value="$PROJECT_DIR$/JavaScript_Learn/jQuery/list.html" />
         <option value="$PROJECT_DIR$/JavaScript_Learn/ajax/cd_catalog" />
         <option value="$PROJECT_DIR$/JavaScript_Learn/ajax/demo_test" />
-        <option value="$PROJECT_DIR$/JavaScript_Learn/ajax/index.html" />
         <option value="$PROJECT_DIR$/scripts/jQuery_v3.3.1.js" />
+        <option value="$PROJECT_DIR$/JavaScript_Learn/ajax/index.html" />
+        <option value="$PROJECT_DIR$/JavaScript_Learn/ajax/index_get.html" />
+        <option value="$PROJECT_DIR$/JavaScript_Learn/ajax/demo_test_post.asp" />
+        <option value="$PROJECT_DIR$/JavaScript_Learn/ajax/demo_test_post" />
+        <option value="$PROJECT_DIR$/JavaScript_Learn/ajax/demo" />
+        <option value="$PROJECT_DIR$/JavaScript_Learn/ajax/ajax_post.html" />
       </list>
     </option>
   </component>
@@ -205,7 +229,7 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="989" />
+    <option name="x" value="984" />
     <option name="width" value="943" />
     <option name="height" value="1087" />
   </component>
@@ -356,7 +380,14 @@
       <option name="project" value="LOCAL" />
       <updated>1541060612195</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="AJAX 1.1">
+      <created>1541383381509</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1541383381509</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TodoView">
@@ -369,19 +400,20 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="989" y="0" width="943" height="1087" extended-state="0" />
+    <frame x="984" y="0" width="943" height="1087" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32929516" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32911393" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="11" weight="0.23406479" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.23312236" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32929516" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33182332" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32911393" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -392,7 +424,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -459,37 +490,10 @@
     <MESSAGE value="divide 1" />
     <MESSAGE value="divide 2" />
     <MESSAGE value="object1.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="object1.0" />
+    <MESSAGE value="AJAX 1.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="AJAX 1.1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/scripts/bounce.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1653">
-          <caret line="87" column="2" selection-start-line="87" selection-start-column="2" selection-end-line="87" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript_Learn/bouncing_balls.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/bouncing.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="703">
-          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript_Learn/heroes.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="31" column="19" lean-forward="true" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JavaScript_Learn/dom-example.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="855">
@@ -698,13 +702,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/bouncing.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1121">
-          <caret line="59" selection-start-line="59" selection-end-line="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JavaScript_Learn/jQuery/list.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="722">
@@ -719,34 +716,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript_Learn/ajax/cd_catalog">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript_Learn/ajax/demo_test">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="34" lean-forward="true" selection-start-column="34" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/jQuery_v3.3.1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="713">
-          <caret line="10360" lean-forward="true" selection-start-line="10360" selection-end-line="10360" />
+        <state relative-caret-position="549">
+          <caret line="10363" column="4" lean-forward="true" selection-start-line="10363" selection-start-column="4" selection-end-line="10363" selection-end-column="4" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript_Learn/ajax/index.html">
+    <entry file="file://$PROJECT_DIR$/JavaScript_Learn/ajax/cd_catalog.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="380">
+          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/bouncing.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScript_Learn/ajax/demo_test">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="34" selection-start-column="34" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScript_Learn/ajax/index_get.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScript_Learn/ajax/demo_test_post.asp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="14" lean-forward="true" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScript_Learn/ajax/demo_test_post">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScript_Learn/ajax/demo">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScript_Learn/ajax/ajax_post.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="6" lean-forward="true" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
         </state>
       </provider>
     </entry>

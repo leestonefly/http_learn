@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>ajax</title>
+
+    <script src="../../scripts/jQuery_v3.3.1.js"></script>
+
+</head>
+<body>
+
+<!--<h3 id="test">请点击下面的按钮，通过 jQuery AJAX 改变这段文本。</h3>-->
+<!--<button id="btn1" type="button">获得外部的内容</button>-->
+
+<!--<div id="div1"><h2>使用 jQuery AJAX 来改变文本</h2></div>-->
+<!--<button>获得外部内容</button>-->
+
+<button>向页面发送 HTTP GET 请求，然后获得返回的结果</button>
+
+<script>
+    // $(document).ready(function () {
+    //     $("#btn1").click(function () {
+    //         $('#test').load('demo_test');
+    //     })
+    // })
+
+    // $(document).ready(function () {
+    //     $('button').click(function () {
+    //         $('#div1').load('demo_test',function (responseTxt, statusTxt, xhr) {
+    //             if(statusTxt ==='success'){
+    //                 alert("加载成功！");
+    //             }else if(statusTxt ==='error') {
+    //                 alert('Error: '+xhr.status + '; '+xhr.statusText);
+    //             }
+    //         })
+    //     })
+    // })
+    $(document).ready(function () {
+        $('button').click(function () {
+            $.get('cd_catalog.json',function (data, status) {
+                alert("数据："+data + '\n状态：'+status);
+            })
+        })
+    })
+
+
+</script>
+</body>
+</html>
