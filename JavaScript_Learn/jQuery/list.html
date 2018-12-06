@@ -10,13 +10,26 @@
         }
 
         ul {
+            list-style-type: none;
+            overflow: hidden;
             padding: 0;
+
         }
 
-        li {
+        .level1 {
             padding: 3px;
             margin-bottom: 5px;
             list-style-type: none;
+            overflow: hidden;
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
         }
 
         a:link, a:visited {
@@ -33,6 +46,10 @@
 
         a:hover, a:active {
             background-color: #cc0000;
+        }
+
+        .level2 li:hover {
+            background-color: aqua;
         }
 
     </style>
@@ -68,7 +85,16 @@
 </div>
 </body>
 <script>
+    let aaa = document.querySelectorAll('a');
+    for (let i =0;i<aaa.length,i++){
 
+    }
+    $(document).ready(function () {
+        $('a').click(function () {
+            $('.level2 li').fadeToggle();
+
+        })
+    })
 
 </script>
 
