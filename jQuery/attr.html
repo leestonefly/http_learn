@@ -3,8 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <title>attr</title>
+
+    <style>
+        img{
+            padding:10px;
+        }
+        div{
+            color:red;
+            font-size: 24px;
+        }
+    </style>
+    <script src="../scripts/jQuery_v3.3.1.js"></script>
 </head>
 <body>
+<img>
+<img>
+<img>
+<div><b>Attribute of Ajax</b></div>
+<script>
+    $("img").attr({
+        src:"../images/chris.jpg",
+        title:"Hello",
+        alt:"jQuery Logo",
+    });
+    $("div").text($("img").attr("alt"));
+</script>
 
 </body>
 </html>
