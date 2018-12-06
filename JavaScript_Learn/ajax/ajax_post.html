@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>post</title>
+    <script src="../../scripts/jQuery_v3.3.1.js"></script>
+</head>
+<body>
+<button>向页面发送 HTTP POST 请求，并获得返回的结果</button>
+
+<script>
+    $(document).ready(function () {
+        $('button').click(function () {
+            $.post('demo',{
+                name:'Donald Duck',
+                city:'Dyckburg'
+            },function (data, status) {
+                alert("数据："+data + '\n状态：'+status);
+            })
+        })
+    })
+</script>
+</body>
+</html>
