@@ -1,0 +1,857 @@
+[
+  {
+    "ID": "1",
+    "firstID": "1",
+    "secondID": "",
+    "thirdID": "",
+    "fourthID": "",
+    "tyName": "事件后果定性",
+    "remark": ""
+  },
+  {
+    "ID": "2",
+    "firstID": "2",
+    "secondID": "",
+    "thirdID": "",
+    "fourthID": "",
+    "tyName": "事件政策定性",
+    "remark": ""
+  },
+  {
+    "ID": "3",
+    "firstID": "3",
+    "secondID": "",
+    "thirdID": "",
+    "fourthID": "",
+    "tyName": "原因区域",
+    "remark": ""
+  },
+  {
+    "ID": "4",
+    "firstID": "4",
+    "secondID": "",
+    "thirdID": "",
+    "fourthID": "",
+    "tyName": "事件区域",
+    "remark": ""
+  },
+  {
+    "ID": "5",
+    "firstID": "1",
+    "secondID": "101",
+    "thirdID": "",
+    "fourthID": "",
+    "tyName": "运输航空严重事故症候、",
+    "remark": ""
+  },
+  {
+    "ID": "6",
+    "firstID": "1",
+    "secondID": "102",
+    "thirdID": "",
+    "fourthID": "",
+    "tyName": "运输航空一般事故征候、",
+    "remark": ""
+  },
+  {
+    "ID": "7",
+    "firstID": "1",
+    "secondID": "103",
+    "thirdID": "",
+    "fourthID": "",
+    "tyName": "航空器地面事故征候、",
+    "remark": ""
+  },
+  {
+    "ID": "8",
+    "firstID": "1",
+    "secondID": "104",
+    "thirdID": "",
+    "fourthID": "",
+    "tyName": "公共安全严重差错",
+    "remark": ""
+  },
+  {
+    "ID": "9",
+    "firstID": "1",
+    "secondID": "105",
+    "thirdID": "",
+    "fourthID": "",
+    "tyName": "公共安全一般差错",
+    "remark": ""
+  },
+  {
+    "ID": "10",
+    "firstID": "1",
+    "secondID": "106",
+    "thirdID": "",
+    "fourthID": "",
+    "tyName": "空防和地面严重差错",
+    "remark": ""
+  },
+  {
+    "ID": "11",
+    "firstID": "1",
+    "secondID": "107",
+    "thirdID": "",
+    "fourthID": "",
+    "tyName": "空防和地面一般差错",
+    "remark": ""
+  },
+  {
+    "ID": "12",
+    "firstID": "1",
+    "secondID": "108",
+    "thirdID": "",
+    "fourthID": "",
+    "tyName": "机务严重差错（严重差错改）",
+    "remark": ""
+  },
+  {
+    "ID": "13",
+    "firstID": "1",
+    "secondID": "109",
+    "thirdID": "",
+    "fourthID": "",
+    "tyName": "机务一般差错（一般差错改）",
+    "remark": ""
+  },
+  {
+    "ID": "14",
+    "firstID": "1",
+    "secondID": "110",
+    "thirdID": "",
+    "fourthID": "",
+    "tyName": "临界差错、",
+    "remark": ""
+  },
+  {
+    "ID": "15",
+    "firstID": "1",
+    "secondID": "111",
+    "thirdID": "",
+    "fourthID": "",
+    "tyName": "亚临界差错、",
+    "remark": ""
+  },
+  {
+    "ID": "16",
+    "firstID": "1",
+    "secondID": "112",
+    "thirdID": "",
+    "fourthID": "",
+    "tyName": "一般不正常事件",
+    "remark": ""
+  },
+  {
+    "ID": "17",
+    "firstID": "2",
+    "secondID": "201",
+    "thirdID": "",
+    "fourthID": "",
+    "tyName": "集团零容忍",
+    "remark": ""
+  },
+  {
+    "ID": "18",
+    "firstID": "2",
+    "secondID": "201",
+    "thirdID": "20101",
+    "fourthID": "",
+    "tyName": "缓报、 漏报和瞒报不安全事件信息以及干扰事件调查。",
+    "remark": ""
+  },
+  {
+    "ID": "19",
+    "firstID": "2",
+    "secondID": "201",
+    "thirdID": "20102",
+    "fourthID": "",
+    "tyName": "被上级单位行政处罚、 点名通报或行政约谈的不安全行为。",
+    "remark": ""
+  },
+  {
+    "ID": "20",
+    "firstID": "2",
+    "secondID": "201",
+    "thirdID": "20103",
+    "fourthID": "",
+    "tyName": "处于酒精或精神类药物作用下执勤或试图执勤\/上岗。",
+    "remark": ""
+  },
+  {
+    "ID": "21",
+    "firstID": "2",
+    "secondID": "201",
+    "thirdID": "20104",
+    "fourthID": "",
+    "tyName": "在条件不具备、 隐患未排除、 措施不到位的情况下组织生产。",
+    "remark": ""
+  },
+  {
+    "ID": "22",
+    "firstID": "2",
+    "secondID": "201",
+    "thirdID": "20105",
+    "fourthID": "",
+    "tyName": "安排不具备相应资质能力的人员从事专业作业。",
+    "remark": ""
+  },
+  {
+    "ID": "23",
+    "firstID": "2",
+    "secondID": "201",
+    "thirdID": "20106",
+    "fourthID": "",
+    "tyName": "干部值班期间擅离职守。",
+    "remark": ""
+  },
+  {
+    "ID": "24",
+    "firstID": "2",
+    "secondID": "201",
+    "thirdID": "20107",
+    "fourthID": "",
+    "tyName": "未有效治理重大或重复性安全隐患。",
+    "remark": ""
+  },
+  {
+    "ID": "25",
+    "firstID": "2",
+    "secondID": "201",
+    "thirdID": "20108",
+    "fourthID": "",
+    "tyName": "不落实 APS 和“四个杜绝” 要求。",
+    "remark": ""
+  },
+  {
+    "ID": "26",
+    "firstID": "2",
+    "secondID": "201",
+    "thirdID": "20109",
+    "fourthID": "",
+    "tyName": "不按照手册、 工卡实施维修工作。",
+    "remark": ""
+  },
+  {
+    "ID": "27",
+    "firstID": "2",
+    "secondID": "201",
+    "thirdID": "20110",
+    "fourthID": "",
+    "tyName": "飞机带疑问放行。",
+    "remark": ""
+  },
+  {
+    "ID": "28",
+    "firstID": "2",
+    "secondID": "201",
+    "thirdID": "20111",
+    "fourthID": "",
+    "tyName": "控制区内不按规定行驶。",
+    "remark": ""
+  },
+  {
+    "ID": "29",
+    "firstID": "2",
+    "secondID": "201",
+    "thirdID": "20112",
+    "fourthID": "",
+    "tyName": "违规停、 靠航空器。",
+    "remark": ""
+  },
+  {
+    "ID": "30",
+    "firstID": "2",
+    "secondID": "202",
+    "thirdID": "",
+    "fourthID": "",
+    "tyName": "工程部零容忍",
+    "remark": ""
+  },
+  {
+    "ID": "31",
+    "firstID": "2",
+    "secondID": "202",
+    "thirdID": "20201",
+    "fourthID": "",
+    "tyName": "通用类",
+    "remark": ""
+  },
+  {
+    "ID": "32",
+    "firstID": "2",
+    "secondID": "202",
+    "thirdID": "20201",
+    "fourthID": "2020101",
+    "tyName": "缓报、漏报和瞒报不安全事件信息以及干扰事件调查；",
+    "remark": ""
+  },
+  {
+    "ID": "33",
+    "firstID": "2",
+    "secondID": "202",
+    "thirdID": "20201",
+    "fourthID": "2020102",
+    "tyName": "发生一般差错、严重差错，或人为原因事故征候（含）以上不安全事件；",
+    "remark": ""
+  },
+  {
+    "ID": "34",
+    "firstID": "2",
+    "secondID": "202",
+    "thirdID": "20201",
+    "fourthID": "2020103",
+    "tyName": "被上级单位行政处罚、点名通报或行政约谈；",
+    "remark": ""
+  },
+  {
+    "ID": "35",
+    "firstID": "2",
+    "secondID": "202",
+    "thirdID": "20201",
+    "fourthID": "2020104",
+    "tyName": "发生违规饮酒事件；",
+    "remark": ""
+  },
+  {
+    "ID": "36",
+    "firstID": "2",
+    "secondID": "202",
+    "thirdID": "20201",
+    "fourthID": "2020105",
+    "tyName": "一年内重复发生南航机务系统已经发生过的同类不安全事件；",
+    "remark": ""
+  },
+  {
+    "ID": "37",
+    "firstID": "2",
+    "secondID": "202",
+    "thirdID": "20202",
+    "fourthID": "",
+    "tyName": "管理类",
+    "remark": ""
+  },
+  {
+    "ID": "38",
+    "firstID": "2",
+    "secondID": "202",
+    "thirdID": "20202",
+    "fourthID": "2020201",
+    "tyName": "工作程序缺失或错误，或工作分工及流程存在明显错误；",
+    "remark": ""
+  },
+  {
+    "ID": "39",
+    "firstID": "2",
+    "secondID": "202",
+    "thirdID": "20202",
+    "fourthID": "2020202",
+    "tyName": "在明显不具备条件或已知安全隐患下开展维修工作；",
+    "remark": ""
+  },
+  {
+    "ID": "40",
+    "firstID": "2",
+    "secondID": "202",
+    "thirdID": "20202",
+    "fourthID": "2020203",
+    "tyName": "安排不具备资质能力的人员从事维修作业；",
+    "remark": ""
+  },
+  {
+    "ID": "41",
+    "firstID": "2",
+    "secondID": "202",
+    "thirdID": "20202",
+    "fourthID": "2020204",
+    "tyName": "干部值班期间擅离职守；",
+    "remark": ""
+  },
+  {
+    "ID": "42",
+    "firstID": "2",
+    "secondID": "202",
+    "thirdID": "20202",
+    "fourthID": "2020205",
+    "tyName": "重大或重复性安全隐患没有得到有效整改；",
+    "remark": ""
+  },
+  {
+    "ID": "43",
+    "firstID": "2",
+    "secondID": "202",
+    "thirdID": "20203",
+    "fourthID": "",
+    "tyName": "操作类",
+    "remark": ""
+  },
+  {
+    "ID": "44",
+    "firstID": "2",
+    "secondID": "202",
+    "thirdID": "20203",
+    "fourthID": "2020301",
+    "tyName": "使用已知存在故障和功能缺陷的工具设备；",
+    "remark": ""
+  },
+  {
+    "ID": "45",
+    "firstID": "2",
+    "secondID": "202",
+    "thirdID": "20203",
+    "fourthID": "2020302",
+    "tyName": "危险环境和高空作业未按要求采取防护措施；",
+    "remark": ""
+  },
+  {
+    "ID": "46",
+    "firstID": "2",
+    "secondID": "202",
+    "thirdID": "20203",
+    "fourthID": "2020303",
+    "tyName": "未按规定程序牵引飞机；",
+    "remark": ""
+  },
+  {
+    "ID": "47",
+    "firstID": "2",
+    "secondID": "202",
+    "thirdID": "20203",
+    "fourthID": "2020304",
+    "tyName": "人员、车辆、工作梯等违规穿越、停靠飞机；",
+    "remark": ""
+  },
+  {
+    "ID": "48",
+    "firstID": "2",
+    "secondID": "202",
+    "thirdID": "20203",
+    "fourthID": "2020305",
+    "tyName": "不执行“工具三清点”；",
+    "remark": ""
+  },
+  {
+    "ID": "49",
+    "firstID": "2",
+    "secondID": "202",
+    "thirdID": "20203",
+    "fourthID": "2020306",
+    "tyName": "未按规定时限完成适航指令、定检或MRS工作项目；",
+    "remark": ""
+  },
+  {
+    "ID": "50",
+    "firstID": "2",
+    "secondID": "202",
+    "thirdID": "20203",
+    "fourthID": "2020307",
+    "tyName": "机载时控件超期；",
+    "remark": ""
+  },
+  {
+    "ID": "51",
+    "firstID": "2",
+    "secondID": "202",
+    "thirdID": "20203",
+    "fourthID": "2020308",
+    "tyName": "人为原因导致发动机吸入外来物；",
+    "remark": ""
+  },
+  {
+    "ID": "52",
+    "firstID": "2",
+    "secondID": "202",
+    "thirdID": "20203",
+    "fourthID": "2020309",
+    "tyName": "不落实互检要求；",
+    "remark": ""
+  },
+  {
+    "ID": "53",
+    "firstID": "2",
+    "secondID": "202",
+    "thirdID": "20203",
+    "fourthID": "2020310",
+    "tyName": "未带或错带飞行记录本飞行；",
+    "remark": ""
+  },
+  {
+    "ID": "54",
+    "firstID": "2",
+    "secondID": "202",
+    "thirdID": "20203",
+    "fourthID": "2020311",
+    "tyName": "漏签、代签或未完成工作就签署维修记录；",
+    "remark": ""
+  },
+  {
+    "ID": "55",
+    "firstID": "2",
+    "secondID": "202",
+    "thirdID": "20203",
+    "fourthID": "2020312",
+    "tyName": "维修工作中使用不合格的计量器具或航化品；",
+    "remark": ""
+  },
+  {
+    "ID": "56",
+    "firstID": "2",
+    "secondID": "202",
+    "thirdID": "20203",
+    "fourthID": "2020313",
+    "tyName": "未按程序进行航材收发料和入库检验；",
+    "remark": ""
+  },
+  {
+    "ID": "57",
+    "firstID": "2",
+    "secondID": "202",
+    "thirdID": "20203",
+    "fourthID": "2020314",
+    "tyName": "航材货架寿命超期；",
+    "remark": ""
+  },
+  {
+    "ID": "58",
+    "firstID": "2",
+    "secondID": "202",
+    "thirdID": "20203",
+    "fourthID": "2020315",
+    "tyName": "未按规定安排跟机人员或跟机人员未携带有效证照；",
+    "remark": ""
+  },
+  {
+    "ID": "59",
+    "firstID": "2",
+    "secondID": "202",
+    "thirdID": "20203",
+    "fourthID": "2020316",
+    "tyName": "不按规定配置、保养、检查、隔离、使用维修设施、工具设备、工作车辆、劳动保护用品；",
+    "remark": ""
+  },
+  {
+    "ID": "60",
+    "firstID": "2",
+    "secondID": "202",
+    "thirdID": "20204",
+    "fourthID": "",
+    "tyName": "车辆行驶类",
+    "remark": ""
+  },
+  {
+    "ID": "61",
+    "firstID": "2",
+    "secondID": "202",
+    "thirdID": "20204",
+    "fourthID": "2020401",
+    "tyName": "与飞机抢行；无证驾驶，不按规定路线、速度、信号行驶；",
+    "remark": ""
+  },
+  {
+    "ID": "62",
+    "firstID": "2",
+    "secondID": "202",
+    "thirdID": "20204",
+    "fourthID": "2020402",
+    "tyName": "未按规定停放车辆（不熄火、不用手刹、不摆轮档、不锁门窗、停放不规范等）；",
+    "remark": ""
+  },
+  {
+    "ID": "63",
+    "firstID": "2",
+    "secondID": "202",
+    "thirdID": "20205",
+    "fourthID": "",
+    "tyName": "机上勤务类",
+    "remark": ""
+  },
+  {
+    "ID": "64",
+    "firstID": "2",
+    "secondID": "202",
+    "thirdID": "20205",
+    "fourthID": "2020501",
+    "tyName": "机上服务保障中，夹带危险物品或违禁品；",
+    "remark": ""
+  },
+  {
+    "ID": "65",
+    "firstID": "2",
+    "secondID": "202",
+    "thirdID": "20205",
+    "fourthID": "2020502",
+    "tyName": "错误配置安全须知，擅自操作舱门、挪动或损坏机上应急设备。",
+    "remark": ""
+  },
+  {
+    "ID": "66",
+    "firstID": "2",
+    "secondID": "203",
+    "thirdID": "",
+    "fourthID": "",
+    "tyName": "维修厂红线",
+    "remark": ""
+  },
+  {
+    "ID": "67",
+    "firstID": "2",
+    "secondID": "203",
+    "thirdID": "20301",
+    "fourthID": "",
+    "tyName": "未按程序手册施工",
+    "remark": ""
+  },
+  {
+    "ID": "68",
+    "firstID": "2",
+    "secondID": "203",
+    "thirdID": "20302",
+    "fourthID": "",
+    "tyName": "非授权操作使用特种车辆",
+    "remark": ""
+  },
+  {
+    "ID": "69",
+    "firstID": "2",
+    "secondID": "203",
+    "thirdID": "20303",
+    "fourthID": "",
+    "tyName": "违规饮酒",
+    "remark": ""
+  },
+  {
+    "ID": "70",
+    "firstID": "2",
+    "secondID": "204",
+    "thirdID": "",
+    "fourthID": "",
+    "tyName": "重要故障管控",
+    "remark": ""
+  },
+  {
+    "ID": "71",
+    "firstID": "2",
+    "secondID": "205",
+    "thirdID": "",
+    "fourthID": "",
+    "tyName": "四个杜绝",
+    "remark": ""
+  },
+  {
+    "ID": "72",
+    "firstID": "2",
+    "secondID": "206",
+    "thirdID": "",
+    "fourthID": "",
+    "tyName": "安全生产问责",
+    "remark": ""
+  },
+  {
+    "ID": "73",
+    "firstID": "3",
+    "secondID": "301",
+    "thirdID": "",
+    "fourthID": "",
+    "tyName": "违章",
+    "remark": "厂级以上程序、行业规章、规范（饮酒、防空停、重要故障管控）等"
+  },
+  {
+    "ID": "74",
+    "firstID": "3",
+    "secondID": "302",
+    "thirdID": "",
+    "fourthID": "",
+    "tyName": "违规",
+    "remark": "部门规定、会议决议、上级要求）手工输入"
+  },
+  {
+    "ID": "75",
+    "firstID": "3",
+    "secondID": "303",
+    "thirdID": "",
+    "fourthID": "",
+    "tyName": "人员因素",
+    "remark": "生理状况不佳、心理状况不佳、作风习惯"
+  },
+  {
+    "ID": "76",
+    "firstID": "3",
+    "secondID": "304",
+    "thirdID": "",
+    "fourthID": "",
+    "tyName": "系统管理",
+    "remark": "管理缺失、缺乏程序、缺乏规定、程序和规定与实际不符"
+  },
+  {
+    "ID": "77",
+    "firstID": "3",
+    "secondID": "305",
+    "thirdID": "",
+    "fourthID": "",
+    "tyName": "培训授权",
+    "remark": "培训缺失、培训效果差、安全信息不畅"
+  },
+  {
+    "ID": "78",
+    "firstID": "3",
+    "secondID": "306",
+    "thirdID": "",
+    "fourthID": "",
+    "tyName": "资源保障",
+    "remark": "资质授权、资料获取、设施设备、外部环境"
+  },
+  {
+    "ID": "79",
+    "firstID": "3",
+    "secondID": "307",
+    "thirdID": "",
+    "fourthID": "",
+    "tyName": "外部压力",
+    "remark": "任务量、时间、难度、工作氛围"
+  },
+  {
+    "ID": "80",
+    "firstID": "3",
+    "secondID": "308",
+    "thirdID": "",
+    "fourthID": "",
+    "tyName": "诚信事件",
+    "remark": ""
+  },
+  {
+    "ID": "81",
+    "firstID": "4",
+    "secondID": "401",
+    "thirdID": "",
+    "fourthID": "",
+    "tyName": "工具管理",
+    "remark": "丢失、寻找、记录、落地、上锁、清洁、校验工具使用、非受控工具"
+  },
+  {
+    "ID": "82",
+    "firstID": "4",
+    "secondID": "402",
+    "thirdID": "",
+    "fourthID": "",
+    "tyName": "维修记录",
+    "remark": "内容缺失和错误、放行签署不规范、签署不规范、伪造记录、记录本使用管理、纸质手续缺失错误"
+  },
+  {
+    "ID": "83",
+    "firstID": "4",
+    "secondID": "403",
+    "thirdID": "",
+    "fourthID": "",
+    "tyName": "工卡执行",
+    "remark": "条件不具备组织开工、未按法定文件施工、错误理解、漏项、漏检、顺序错乱、逐项签署、签署未执行项目、标准低下"
+  },
+  {
+    "ID": "84",
+    "firstID": "4",
+    "secondID": "404",
+    "thirdID": "",
+    "fourthID": "",
+    "tyName": "6S管理",
+    "remark": "办公区、设备区、库房区、工作现场物品摆放、FOD防治"
+  },
+  {
+    "ID": "85",
+    "firstID": "4",
+    "secondID": "405",
+    "thirdID": "",
+    "fourthID": "",
+    "tyName": "内外部清洁",
+    "remark": "发动机、起落架、轮舱、外表、驾驶舱、仪表板、客舱行李架、地面、烤箱"
+  },
+  {
+    "ID": "86",
+    "firstID": "4",
+    "secondID": "406",
+    "thirdID": "",
+    "fourthID": "",
+    "tyName": "信息传递",
+    "remark": "未安排、未传达、未协调、未交接、未上报、错误信息、伪造信息、销毁掩盖信息、内容缺失、无闭环和反馈缺失"
+  },
+  {
+    "ID": "87",
+    "firstID": "4",
+    "secondID": "407",
+    "thirdID": "",
+    "fourthID": "",
+    "tyName": "现场规范",
+    "remark": "行为举止、反光衣、穿越、手机、路线、手指、站位、饮酒"
+  },
+  {
+    "ID": "88",
+    "firstID": "4",
+    "secondID": "408",
+    "thirdID": "",
+    "fourthID": "",
+    "tyName": "复检复查",
+    "remark": ""
+  },
+  {
+    "ID": "89",
+    "firstID": "4",
+    "secondID": "409",
+    "thirdID": "",
+    "fourthID": "",
+    "tyName": "安全防护",
+    "remark": "安全带、防护网、警示带、跳开关、警示标志标牌、限动锁、安全销、旁通销、校装销、锥筒轮挡、系留、应急设施预位、防护盖套杆塞钩板、错误使用设施"
+  },
+  {
+    "ID": "90",
+    "firstID": "4",
+    "secondID": "410",
+    "thirdID": "",
+    "fourthID": "",
+    "tyName": "车辆运行",
+    "remark": "车速、倒车指挥、路线、上锁、灯光使用、停车熄火制动、刮擦碰、车辆维护及车况"
+  },
+  {
+    "ID": "91",
+    "firstID": "4",
+    "secondID": "411",
+    "thirdID": "",
+    "fourthID": "",
+    "tyName": "消防安保",
+    "remark": "存在隐患、设备超期、设备失效、抽烟、门禁安保、飞机监护、夹带违禁品、危化品管理和运输"
+  },
+  {
+    "ID": "92",
+    "firstID": "4",
+    "secondID": "412",
+    "thirdID": "",
+    "fourthID": "",
+    "tyName": "人员资质",
+    "remark": "培训证书管理、证照管理使用、考试作弊、履历造假、资质文件缺失错误、超授权工作、替代签署"
+  },
+  {
+    "ID": "93",
+    "firstID": "4",
+    "secondID": "413",
+    "thirdID": "",
+    "fourthID": "",
+    "tyName": "支援保障",
+    "remark": "设备巡检、设备设施缺陷和损坏、校验工具超时、工具隔离、工具修理维护"
+  },
+  {
+    "ID": "94",
+    "firstID": "4",
+    "secondID": "414",
+    "thirdID": "",
+    "fourthID": "",
+    "tyName": "职能管理",
+    "remark": "资料更新、生产控制超时偏差、组包错项漏项、指令超时、时寿件超时、保留办理、自制审批、航材管理、审批延迟、配合支持、整改不力、外部手续缺失"
+  },
+  {
+    "ID": "95",
+    "firstID": "4",
+    "secondID": "415",
+    "thirdID": "",
+    "fourthID": "",
+    "tyName": "工程管理",
+    "remark": "技术文件制定、工卡错误不规范、引用资料错误、人员缺位、审核缺失、技术交接缺失、上报信息滞后、排故不彻底"
+  }
+]
