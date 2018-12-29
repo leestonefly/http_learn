@@ -1,20 +1,30 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+ol, ul {
+    list-style: none;
+}
+
 body {
     background-color: #efefef;
     margin: 0;
 }
-hr{
+
+h3 {
+    font-weight: normal;
+}
+
+hr {
     height: 0;
-    border-top:1px solid #dedede;
+    border-top: 1px solid #dedede;
 }
 
 a {
     text-decoration: none;
-    color: black ;
+    color: black;
 
 }
 
@@ -27,13 +37,15 @@ a {
 .topNavBar {
     padding: 20px 0 20px 0;
     position: fixed;
-    top:0;
+    top: 0;
     margin: 0;
     width: 100%;
 }
-.topNavBar-inner{
+
+.topNavBar-inner {
     padding: 0 16px 0 16px;
 }
+
 .topNavBar .logo {
     font-size: 24px;
     font-family: 'Arial Black';
@@ -44,7 +56,7 @@ a {
 .topNavBar .logo .rs {
     color: #e6686a;
     margin-right: 4px;
-    
+
 }
 
 .topNavBar .logo .card {
@@ -63,7 +75,7 @@ a {
     font-weight: bold;
     font-size: 12px;
     border-top: 3px solid transparent;
-    border-bottom:3px solid transparent ;
+    border-bottom: 3px solid transparent;
     padding-top: 5px;
     padding-bottom: 5px;
     display: block;
@@ -90,32 +102,37 @@ a {
     border-bottom-color: #DC6465;
 }
 
-.banner{
+.banner {
     height: 515px;
-    background:url(./images/rs-cover.jpg);
+    background: url(./images/rs-cover.jpg);
     background-position: center center;
     background-size: cover;
 }
-.banner .mask{
+
+.banner .mask {
     height: 515px;
-    background-color: rgba(0,0,0,0.8);
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
-.userCard{
+.userCard {
+    margin-top: -340px;
     max-width: 940px;
     margin-left: auto;
     margin-right: auto;
     background-color: #FFFFFF;
+    box-shadow: 0px 2px 2px 0px rgba(155, 139, 118, 1);
 
 }
-.userCard .pictureAndText{
+
+.userCard .pictureAndText {
     display: flex;
-    flex-flow: row ;
+    flex-flow: row;
     /*justify-content: space-around;*/
     padding: 50px;
 
 }
-.userCard .welcome{
+
+.userCard .welcome {
     background-color: #e6686a;
     color: white;
     display: inline-block;
@@ -127,48 +144,55 @@ a {
     position: relative;
 
 }
-.userCard .welcome .triangle{
+
+.userCard .welcome .triangle {
     border: 10px solid transparent;
     width: 0;
     border-left-color: #e6686a;
     border-top-width: 0;
     position: absolute;
     left: 5px;
-    top:100%
+    top: 100%
 }
-.userCard .text{
+
+.userCard .text {
     margin-left: 50px;
     width: 500px;
 }
-.userCard .text h1{
+
+.userCard .text h1 {
     margin-top: 18px;
 }
 
-.userCard .text hr{
+.userCard .text hr {
     margin: 20px 0;
 }
 
-.text dl{
+.text dl {
     display: flex;
-    flex-flow: row wrap ;
+    flex-flow: row wrap;
 }
-.text dl dd,.text dl dt{
+
+.text dl dd, .text dl dt {
     padding: 5px 0;
 }
-.text dl dd{
+
+.text dl dd {
     width: 70%;
     color: #9da0a7;
 }
-.text dl dt{
+
+.text dl dt {
     width: 30%;
-    font-weight:bold ;
+    font-weight: bold;
 }
 
-.userCard footer{
+.userCard footer {
     background-color: #e6686a;
     text-align: center;
 }
-.userCard .icon{
+
+.userCard .icon {
     width: 30px;
     height: 30px;
     color: white;
@@ -176,11 +200,12 @@ a {
     vertical-align: top;
 
 }
+
 /*.userCard .media{*/
-    /*display: flex;*/
-    /*justify-content: space-around;*/
+/*display: flex;*/
+/*justify-content: space-around;*/
 /*}*/
-.userCard footer.media a{
+.userCard footer.media a {
     display: inline-block;
     line-height: 30px;
     width: 40px;
@@ -189,6 +214,90 @@ a {
     margin: 16px;
 }
 
-.userCard footer.media a:hover{
+.userCard footer.media a:hover {
     background-color: #cf5d5f;
+}
+
+.download {
+    display: flex;
+    justify-content: center;
+
+}
+
+.downloadButton {
+    display: inline-block;
+    margin-top: 32px;
+    font-size: 14px;
+    line-height: 16px;
+    padding: 21px 55px;
+    border: 1px solid #cdcfd1;
+    border-radius: 2px;
+    background-color: #efefef;
+    color: #3d4451;
+    font-weight: bold;
+    transition: box-shadow 0.3s;
+
+}
+
+.downloadButton:hover {
+    box-shadow: 0px 4px 12px 0px rgba(155, 139, 118, 1);
+}
+
+.selfIntroduction {
+    margin-top: 32px;
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    line-height: 1.8;
+    font-size: 18px;
+    font-family: 华文新魏;
+}
+
+section.skills {
+    margin-top: 32px;
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+section.skills > h2 {
+    text-align: center;
+    line-height: 1.8;
+    font-size: 34px;
+    font-family: 华文新魏;
+}
+
+section.skills .skillsList {
+    margin-top: 20px;
+    background-color: white;
+    box-shadow: 0px 2px 2px 0px rgba(155, 139, 118, 1);
+    display: flex;
+    justify-content: center;
+
+}
+
+section.skills ol {
+    width: 45%;
+    padding: 50px 20px 20px 20px;
+}
+
+section.skills .progressBar {
+    height: 5px;
+    background-color: #fae1e1;
+    border-radius: 2px;
+    margin: 4px 0 40px 0;
+}
+
+section.skills .progress {
+    height: 100%;
+    background-color: #e6686a;
+    width: 80%;
+}
+
+section.skills .progressIT {
+    height: 100%;
+    background-color: #e6686a;
+    width: 20%;
 }

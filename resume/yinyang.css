@@ -16,7 +16,7 @@ body{
     border-radius: 100%;
     position: relative;
     animation:roll 3s infinite;
-    transform: rotate(180deg);
+    animation-timing-function: linear;
 
 }
 
