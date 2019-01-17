@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0dbb985-6e27-431d-82c1-1a9257b8c70e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/resume/xxx.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resume/a.css" beforeDir="false" afterPath="$PROJECT_DIR$/resume/a.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resume/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/resume/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resume/yinyang.css" beforeDir="false" afterPath="$PROJECT_DIR$/resume/yinyang.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -67,8 +63,55 @@
       <file leaf-file-name="a.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resume/a.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="272" column="20" selection-start-line="272" selection-start-column="20" selection-end-line="272" selection-end-column="20" />
+            <state relative-caret-position="507">
+              <caret line="302" column="1" lean-forward="true" selection-start-line="302" selection-start-column="1" selection-end-line="302" selection-end-column="1" />
+              <folding>
+                <element signature="e#1#63#0" />
+                <element signature="e#70#78#0" />
+                <element signature="e#69#118#0" />
+                <element signature="e#157#165#0" />
+                <element signature="e#121#173#0" />
+                <element signature="e#177#227#0" />
+                <element signature="e#246#303#0" />
+                <element signature="e#316#411#0" />
+                <element signature="e#428#459#0" />
+                <element signature="e#477#580#0" />
+                <element signature="e#603#654#0" />
+                <element signature="e#679#702#0" />
+                <element signature="e#719#798#0" />
+                <element signature="e#817#1060#0" />
+                <element signature="e#1080#1136#0" />
+                <element signature="e#1161#1228#0" />
+                <element signature="e#1257#1302#0" />
+                <element signature="e#1337#1374#0" />
+                <element signature="e#1383#1516#0" />
+                <element signature="e#1530#1591#0" />
+                <element signature="e#1602#1706#0" />
+                <element signature="e#1732#1834#0" />
+                <element signature="e#1853#2074#0" />
+                <element signature="e#2103#2265#0" />
+                <element signature="e#2281#2325#0" />
+                <element signature="e#2344#2369#0" />
+                <element signature="e#2389#2412#0" />
+                <element signature="e#2422#2470#0" />
+                <element signature="e#2494#2517#0" />
+                <element signature="e#2529#2568#0" />
+                <element signature="e#2580#2622#0" />
+                <element signature="e#2640#2698#0" />
+                <element signature="e#2714#2797#0" />
+                <element signature="e#2912#3044#0" />
+                <element signature="e#3076#3110#0" />
+                <element signature="e#3144#3152#0" />
+                <element signature="e#3151#3159#0" />
+                <element signature="e#3520#3528#0" />
+                <element signature="e#3686#3694#0" />
+                <element signature="e#3880#3888#0" />
+                <element signature="e#3983#3991#0" />
+                <element signature="e#4118#4126#0" />
+                <element signature="e#4262#4270#0" />
+                <element signature="e#4267#4275#0" />
+                <element signature="e#4345#4353#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -187,8 +230,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="776" />
-    <option name="y" value="64" />
+    <option name="x" value="732" />
+    <option name="y" value="32" />
     <option name="width" value="1092" />
     <option name="height" value="1087" />
   </component>
@@ -394,7 +437,14 @@
       <option name="project" value="LOCAL" />
       <updated>1545976103644</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="jQuery learn 2018-1229">
+      <created>1546071621013</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1546071621014</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TodoView">
@@ -407,17 +457,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1070" y="95" width="1092" height="1087" extended-state="0" />
+    <frame x="732" y="32" width="1092" height="1087" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32929516" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32911393" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.500969" side_tool="true" visible="true" weight="0.3322785" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.23277661" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32929516" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3322785" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19089147" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.499031" visible="true" weight="0.3322785" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19089147" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -504,7 +554,8 @@
     <MESSAGE value="jQuery learn 2018-1225" />
     <MESSAGE value="jQuery learn 2018-1226" />
     <MESSAGE value="jQuery learn 2018-1228" />
-    <option name="LAST_COMMIT_MESSAGE" value="jQuery learn 2018-1228" />
+    <MESSAGE value="jQuery learn 2018-1229" />
+    <option name="LAST_COMMIT_MESSAGE" value="jQuery learn 2018-1229" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/styles/css.css">
@@ -794,8 +845,55 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resume/a.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="272" column="20" selection-start-line="272" selection-start-column="20" selection-end-line="272" selection-end-column="20" />
+        <state relative-caret-position="507">
+          <caret line="302" column="1" lean-forward="true" selection-start-line="302" selection-start-column="1" selection-end-line="302" selection-end-column="1" />
+          <folding>
+            <element signature="e#1#63#0" />
+            <element signature="e#70#78#0" />
+            <element signature="e#69#118#0" />
+            <element signature="e#157#165#0" />
+            <element signature="e#121#173#0" />
+            <element signature="e#177#227#0" />
+            <element signature="e#246#303#0" />
+            <element signature="e#316#411#0" />
+            <element signature="e#428#459#0" />
+            <element signature="e#477#580#0" />
+            <element signature="e#603#654#0" />
+            <element signature="e#679#702#0" />
+            <element signature="e#719#798#0" />
+            <element signature="e#817#1060#0" />
+            <element signature="e#1080#1136#0" />
+            <element signature="e#1161#1228#0" />
+            <element signature="e#1257#1302#0" />
+            <element signature="e#1337#1374#0" />
+            <element signature="e#1383#1516#0" />
+            <element signature="e#1530#1591#0" />
+            <element signature="e#1602#1706#0" />
+            <element signature="e#1732#1834#0" />
+            <element signature="e#1853#2074#0" />
+            <element signature="e#2103#2265#0" />
+            <element signature="e#2281#2325#0" />
+            <element signature="e#2344#2369#0" />
+            <element signature="e#2389#2412#0" />
+            <element signature="e#2422#2470#0" />
+            <element signature="e#2494#2517#0" />
+            <element signature="e#2529#2568#0" />
+            <element signature="e#2580#2622#0" />
+            <element signature="e#2640#2698#0" />
+            <element signature="e#2714#2797#0" />
+            <element signature="e#2912#3044#0" />
+            <element signature="e#3076#3110#0" />
+            <element signature="e#3144#3152#0" />
+            <element signature="e#3151#3159#0" />
+            <element signature="e#3520#3528#0" />
+            <element signature="e#3686#3694#0" />
+            <element signature="e#3880#3888#0" />
+            <element signature="e#3983#3991#0" />
+            <element signature="e#4118#4126#0" />
+            <element signature="e#4262#4270#0" />
+            <element signature="e#4267#4275#0" />
+            <element signature="e#4345#4353#0" />
+          </folding>
         </state>
       </provider>
     </entry>

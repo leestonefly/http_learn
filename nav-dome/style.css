@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration:none;
+}
+kbd{
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+    border: 1px solid red;
+    width:4em;
+    height: 4em;
+    position: relative;
+}
+kbd > button{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: none;
+}
+
+kbd:hover > button{
+    display: inline-block;
+}
+#mainX > div:nth-child(2){
+    margin-left: 1em
+}
+#mainX > div:nth-child(3){
+    margin-left: 2em
+}
+#mainX > div:nth-child(4){
+    margin-left: 3em
+}
+
+#mainX{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+}
