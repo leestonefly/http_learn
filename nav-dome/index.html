@@ -2,76 +2,76 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Mynavigation</title>
-    <link rel="stylesheet" href="./style.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Mynavigation</title>
+	<link rel="stylesheet" href="./style.css">
 
 </head>
 
 <body>
-    <header></header>
-    <main>
-        <div id='mainX'>
+<header></header>
+<main>
+	<div id='mainX'>
 
-        </div>
-    </main>
-    <footer></footer>
-    <script>
-        var keys = {
-            0: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '-', '='],
-            1: ['q', 'w', 'e', 'r', 't', 'y', 'u', 'i', 'o', 'p', '[', ']'],
-            2: ['a', 's', 'd', 'f', 'g', 'h', 'j', 'k', 'l', ';', '\''],
-            3: ['z', 'x', 'c', 'v', 'b', 'n', 'm', ',', '.', '/'],
-            length: 4
+	</div>
+</main>
+<footer></footer>
+<script>
+    var keys = {
+        0: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '-', '='],
+        1: ['q', 'w', 'e', 'r', 't', 'y', 'u', 'i', 'o', 'p', '[', ']'],
+        2: ['a', 's', 'd', 'f', 'g', 'h', 'j', 'k', 'l', ';', '\''],
+        3: ['z', 'x', 'c', 'v', 'b', 'n', 'm', ',', '.', '/'],
+        length: 4
+    };
+    var hash = {
+        q: 'qq.com',
+        w: 'weibo.com',
+        e: 'ele.me',
+        r: 'renren.com',
+        t: 'tianya.com',
+        y: 'youtube.cn',
+        u: 'uc.com',
+        i: 'iqiyi.com',
+        o: 'opera.com',
+        p: undefined,
+    };
+
+    index = 0;
+    while (index < keys['length']) {
+        let divX = window.document.createElement('div');
+        mainX.appendChild(divX);
+        let row = keys[index];
+        let index2 = 0;
+
+        while (index2 < row.length) {
+            let kbdX = window.document.createElement('kbd');
+            kbdX.textContent = row[index2];
+            let buttonz = document.createElement('button');
+            buttonz.textContent = '编辑';
+            buttonz.id = row[index2];
+            buttonz.onclick = function (xzkjcnxlkcjlk) {
+                let key = xzkjcnxlkcjlk.target.id;
+                let x = prompt('给我一个网址');
+                hash[key] = x;
+            };
+            kbdX.appendChild(buttonz);
+            divX.appendChild(kbdX);
+            index2 = index2 + 1;
         }
-        var hash = {
-            q: 'qq.com',
-            w: 'weibo.com',
-            e: 'ele.me',
-            r: 'renren.com',
-            t: 'tianya.com',
-            y: 'youtube.cn',
-            u: 'uc.com',
-            i: 'iqiyi.com',
-            o: 'opera.com',
-            p: undefined,
-        }
 
-        index = 0;
-        while (index < keys['length']) {
-            let divX = window.document.createElement('div');
-            mainX.appendChild(divX);
-            let row = keys[index];
-            let index2 = 0;
+        index = index + 1;
+    }
+    document.onkeypress = function (zxcvbnm) {
+        let key = zxcvbnm['key'];
+        let website = hash[key];
+        // location.href='http://'+website;
+        window.open('http://' + website, '_blank')
 
-            while (index2 < row.length) {
-                let kbdX = window.document.createElement('kbd');
-                kbdX.textContent = row[index2];
-                let buttonz = document.createElement('button');
-                buttonz.textContent = '编辑';
-                buttonz.id = row[index2];
-                buttonz.onclick = function (xzkjcnxlkcjlk) {
-                    key = xzkjcnxlkcjlk.target.id;
-                    x = prompt('给我一个网址');
-                    hash[key] = x ;
-                };
-                kbdX.appendChild(buttonz);
-                divX.appendChild(kbdX);
-                index2 = index2 + 1;
-            }
-
-            index = index + 1;
-        }
-        document.onkeypress = function (zxcvbnm) {
-            key = zxcvbnm['key'];
-            website = hash[key];
-            // location.href='http://'+website;
-            window.open('http://' + website, '_blank')
-
-        }
-    </script>
+    }
+</script>
 </body>
 
 </html>
