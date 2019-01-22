@@ -1,70 +1,92 @@
 * {
-    margin: 0;
-    padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
 a {
-    text-decoration: none;
+	text-decoration: none;
 }
 
 kbd {
-    display: inline-block;
-    text-align: center;
-    text-transform: uppercase;
-    border: 1px solid red;
-    width: 4em;
-    height: 4em;
-    position: relative;
+	border: 1px solid red;
+	width: 4em;
+	height: 4em;
+	display: inline-block;
+	text-transform: uppercase;
+	position: relative;
 }
 
-kbd>button {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    display: none;
+kbd > button {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	display: none;
 }
 
-kbd:hover>button {
-    display: inline-block;
+kbd:hover > button {
+	display: inline-block;
 }
 
-#mainX>div:nth-child(2) {
-    margin-left: -20px
+body {
+	background: grey url(./wall.jpg) no-repeat center center;
 }
 
-#mainX>div:nth-child(3) {
-    margin-left: -40px
+main {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
 }
 
-#mainX>div:nth-child(4) {
-    margin-left: -60px
+#main {
+	display: inline-block;;
 }
 
-#mainX {
-    display: flex;
-    flex-flow: column;
-    justify-content: space-between;
-    align-items: center;
+#main > div:nth-child(2) {
+	margin-left: -22px;
+}
+
+#main > div:nth-child(3) {
+	margin-left: -80px;
+}
+
+.wrapper {
+	background: rgba(255, 255, 255, 0.2);
+	border-radius: 10px;
 }
 
 .key {
-    width: 50px;
-    height: 40px;
-    background: linear-gradient(to bottom, #292929 0%, #111111 100%);
-    border: 1px solid #373737;
-    color: #c5c5c5;
-    border-radius: 5px;
-    box-shadow: 0 0 0 1px #1a1b1c, 0 0 0 2px #1f2020, 0 3px 0 2px #080808;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    
+	width: 50px;
+	height: 40px;
+	background: linear-gradient(to bottom, #292929 0%, #111111 100%);
+	border: 1px solid #373737;
+	color: #C5C5C5;
+	border-radius: 6px;
+	box-shadow: 0 0 0 1px #1A1B1C, 0 0 0 2px #1F2020, 0 3px 0 2px #080808;
+	position: relative;
+	font-size: 16px;
+	font-family: Helvetica;
 }
 
 .row {
-    margin: 20px;
+	margin: 20px;
 }
 
 .row .key {
-    margin: 0 10px;
+	margin: 0 10px;
+}
+
+.key img {
+	width: 16px;
+	height: 16px;
+	position: absolute;
+	left: 4px;
+	bottom: 2px;
+}
+
+.key .text {
+	position: absolute;
+	left: 4px;
+	top: 2px;
 }

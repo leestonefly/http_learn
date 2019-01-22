@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0dbb985-6e27-431d-82c1-1a9257b8c70e" name="Default" comment="jQuery learn 2019-0102">
+    <list default="true" id="e0dbb985-6e27-431d-82c1-1a9257b8c70e" name="Default" comment="2019-0120">
+      <change afterPath="$PROJECT_DIR$/nav-dome/wall.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nav-dome/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/nav-dome/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nav-dome/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/nav-dome/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nav-dome/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/nav-dome/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,35 +48,47 @@
     <session id="2146135964">
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="2" />
+          <entry key="css" value="1" />
+          <entry key="html" value="3" />
+          <entry key="js" value="1" />
+          <entry key="md" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="2" />
+          <entry key="CSS" value="1" />
+          <entry key="HTML" value="3" />
+          <entry key="JavaScript" value="1" />
+          <entry key="Markdown" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="615" />
-          <entry key="html" value="298" />
-          <entry key="txt" value="14" />
+          <entry key="html" value="427" />
+          <entry key="txt" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="615" />
-          <entry key="HTML" value="298" />
-          <entry key="PLAIN_TEXT" value="14" />
+          <entry key="HTML" value="427" />
+          <entry key="PLAIN_TEXT" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages">
+        <counts>
+          <entry key="git.branch.delete.remote" value="1" />
         </counts>
       </usages-collector>
     </session>
@@ -86,8 +101,35 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/nav-dome/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="473">
-              <caret line="39" column="6" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="6" />
+            <state relative-caret-position="306">
+              <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JavaScript_Learn/ajax/ajax_post.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nav-dome/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="887">
+              <caret line="89" column="7" selection-start-line="89" selection-start-column="7" selection-end-line="89" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nav-dome/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="45" column="17" lean-forward="true" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -122,12 +164,11 @@
         <entry key="$PROJECT_DIR$" value="Develop" />
       </map>
     </option>
+    <option name="RESET_MODE" value="MIXED" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/styles/stylsheet.css" />
-        <option value="$PROJECT_DIR$/styles/list-css.html" />
         <option value="$PROJECT_DIR$/combinators.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/list-css.html" />
@@ -176,6 +217,8 @@
         <option value="$PROJECT_DIR$/scripts/baidu_async.js" />
         <option value="$PROJECT_DIR$/resume/index.html" />
         <option value="$PROJECT_DIR$/resume/a.css" />
+        <option value="$PROJECT_DIR$/nav-dome/style.css" />
+        <option value="$PROJECT_DIR$/nav-dome/main.js" />
         <option value="$PROJECT_DIR$/nav-dome/index.html" />
       </list>
     </option>
@@ -188,7 +231,7 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="55" />
-    <option name="width" value="1263" />
+    <option name="width" value="1386" />
     <option name="height" value="1447" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -200,7 +243,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -211,12 +253,29 @@
             <path>
               <item name="http_learn" type="b2602c69:ProjectViewProjectNode" />
               <item name="http_learn" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaScript_Learn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="http_learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="http_learn" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaScript_Learn" type="462c0819:PsiDirectoryNode" />
+              <item name="ajax" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="http_learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="http_learn" type="462c0819:PsiDirectoryNode" />
+              <item name="jQuery" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="http_learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="http_learn" type="462c0819:PsiDirectoryNode" />
               <item name="nav-dome" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -251,6 +310,8 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/nav-dome/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/nav-dome/style.css</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Created" />
@@ -258,9 +319,6 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/nav-dome/index.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/nav-dome/main.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/nav-dome/style.css</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Deleted" />
@@ -477,7 +535,14 @@
       <option name="project" value="LOCAL" />
       <updated>1546441288547</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="2019-0120">
+      <created>1547995752931</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1547995752931</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TodoView">
@@ -491,8 +556,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="2514" height="1456" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10268949" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10350448" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -505,8 +571,8 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32911393" />
-      <window_info anchor="bottom" id="Version Control" order="11" visible="true" weight="0.15959908" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.500815" side_tool="true" visible="true" weight="0.15959908" />
+      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.499185" visible="true" weight="0.15959908" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32929516" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -584,18 +650,10 @@
     <MESSAGE value="Jquery 2.0" />
     <MESSAGE value="jQuery learn 2018-1207" />
     <MESSAGE value="jQuery learn 2019-0102" />
-    <option name="LAST_COMMIT_MESSAGE" value="jQuery learn 2019-0102" />
+    <MESSAGE value="2019-0120" />
+    <option name="LAST_COMMIT_MESSAGE" value="2019-0120" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css_learn/styling_text.html" />
-    <entry file="file://$PROJECT_DIR$/styles/css.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-152">
-          <caret line="86" column="27" lean-forward="true" selection-start-line="86" selection-start-column="27" selection-end-line="86" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css_learn/panel.html" />
     <entry file="file://$PROJECT_DIR$/css_learn/combinators.html" />
     <entry file="file://$PROJECT_DIR$/styling_boxes.html" />
     <entry file="file://$PROJECT_DIR$/list-css.html" />
@@ -722,13 +780,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JavaScript_Learn/ajax/demo_test_post.asp" />
     <entry file="file://$PROJECT_DIR$/JavaScript_Learn/ajax/demo_test_post" />
-    <entry file="file://$PROJECT_DIR$/JavaScript_Learn/ajax/ajax_post.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="10" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/bouncing.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -853,10 +904,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4122">
           <caret line="229" column="20" selection-start-line="229" selection-start-column="20" selection-end-line="229" selection-end-column="20" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -867,10 +914,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScript_Learn/ajax/ajax_post.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nav-dome/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="887">
+          <caret line="89" column="7" selection-start-line="89" selection-start-column="7" selection-end-line="89" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nav-dome/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="45" column="17" lean-forward="true" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/nav-dome/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="39" column="6" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="6" />
+        <state relative-caret-position="306">
+          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
         </state>
       </provider>
     </entry>
