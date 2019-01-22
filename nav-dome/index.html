@@ -7,11 +7,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Mynavigation</title>
     <link rel="stylesheet" href="./style.css">
-
 </head>
 
 <body>
     <header></header>
+
     <main>
         <div id='mainX'>
 
@@ -38,26 +38,34 @@
             o: 'opera.com',
             p: undefined,
         }
+        var hashInLocalStorage = JSON.parse(localStorage.getItem('zzz') || 'null');
+        if (hashInLocalStorage) {
+            hash = hashInLocalStorage;
+        }
 
         index = 0;
         while (index < keys['length']) {
             let divX = window.document.createElement('div');
             mainX.appendChild(divX);
+            divX.className = 'row';
             let row = keys[index];
             let index2 = 0;
 
             while (index2 < row.length) {
                 let kbdX = window.document.createElement('kbd');
                 kbdX.textContent = row[index2];
-                let buttonz = document.createElement('button');
-                buttonz.textContent = '编辑';
-                buttonz.id = row[index2];
-                buttonz.onclick = function (xzkjcnxlkcjlk) {
+                kbdX.className = 'key';
+                let buttonx = document.createElement('button');
+                buttonx.textContent = '编辑';
+                buttonx.id = row[index2];
+                buttonx.onclick = function (xzkjcnxlkcjlk) {
                     key = xzkjcnxlkcjlk.target.id;
                     x = prompt('给我一个网址');
-                    hash[key] = x ;
+                    hash[key] = x;
+                    localStorage.setItem('jsonz', JSON.stringify(hash))
+
                 };
-                kbdX.appendChild(buttonz);
+                kbdX.appendChild(buttonx);
                 divX.appendChild(kbdX);
                 index2 = index2 + 1;
             }
@@ -69,7 +77,6 @@
             website = hash[key];
             // location.href='http://'+website;
             window.open('http://' + website, '_blank')
-
         }
     </script>
 </body>
