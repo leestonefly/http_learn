@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>canvas</title>
+    <style>
+        #canvas{
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+<canvas id="canvas"></canvas>
+<script>
+    var canvas = document.getElementById('canvas');
+    var ctx = canvas.getContext('2d');
+
+    ctx.fillStyle = 'green';
+    ctx.strokeStyle= 'blue';
+    ctx.fillRect(10,10,100,100);
+    ctx.strokeRect(10,10,100,100);
+    ctx.clearRect(50,50,10,10);
+
+</script>
+</body>
+</html>
