@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0dbb985-6e27-431d-82c1-1a9257b8c70e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/canvas/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -403,7 +402,14 @@
       <option name="project" value="LOCAL" />
       <updated>1548232057462</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="canvas">
+      <created>1548404415278</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1548404415278</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TodoView">
@@ -512,7 +518,8 @@
     <MESSAGE value="jQuery learn 2018-1207" />
     <MESSAGE value="jQuery learn 2019-0102" />
     <MESSAGE value="nav dome complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="nav dome complete" />
+    <MESSAGE value="canvas" />
+    <option name="LAST_COMMIT_MESSAGE" value="canvas" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/styling_boxes.html" />
