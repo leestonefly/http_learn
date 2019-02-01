@@ -1,65 +1,81 @@
 var canvas = document.getElementById('canvas');
 var ctx = canvas.getContext('2d');
 var using = false;
-var eraserEnable = false
-var lastPoint = {
-    x: undefined,
-    y: undefined
-}
+
 autoSetCanvasSize(canvas);
 litenToMouse(canvas);
 
 /********/
 
 function litenToMouse(canvas) {
-
-    canvas.onmousedown = function (e) {
-
-        var x = e.clientX;
-        var y = e.clientY;
-        using = true;
-        if (eraserEnable) {
-            ctx.clearRect(x - 5, y - 5, 10, 10)
-        } else {
-            lastPoint = {
-                'x': x,
-                'y': y
-            };
-        }
+    var eraserEnable = false
+    var lastPoint = {
+        x: undefined,
+        y: undefined
     }
 
-    canvas.onmousemove = function (e) {
-        var x = e.clientX;
-        var y = e.clientY;
-        if (!using) {
-            return
-        };
-        if (eraserEnable) {
-            ctx.clearRect(x - 5, y - 5, 10, 10)
-        } else {
-            var newPoint = {
-                'x': x,
-                'y': y
+    if (document.body.ontouchstart !== undefined) {
+        canvas.onmousedown = function (e) {
+
+            var x = e.clientX;
+            var y = e.clientY;
+            using = true;
+            if (eraserEnable) {
+                ctx.clearRect(x - 5, y - 5, 10, 10)
+            } else {
+                lastPoint = {
+                    'x': x,
+                    'y': y
+                };
             }
-            drawCircle(x, y, 1)
-            drawLine(lastPoint.x, lastPoint.y, newPoint.x, newPoint.y)
-            lastPoint = newPoint;
+        }
+
+        canvas.onmousemove = function (e) {
+            var x = e.clientX;
+            var y = e.clientY;
+            if (!using) {
+                return
+            };
+            if (eraserEnable) {
+                ctx.clearRect(x - 5, y - 5, 10, 10)
+            } else {
+                var newPoint = {
+                    'x': x,
+                    'y': y
+                }
+                drawCircle(x, y, 1)
+                drawLine(lastPoint.x, lastPoint.y, newPoint.x, newPoint.y)
+                lastPoint = newPoint;
+            }
+        }
+
+        canvas.onmouseup = function (e) {
+            using = false;
+        }
+
+        eraser.onclick = function () {
+            eraserEnable = true;
+            actions.className = 'actions x'
+
+        }
+        brush.onclick = function () {
+            eraserEnable = false;
+            actions.className = 'actions'
+        }
+    } else {
+        canvas.ontouchstart = function () {
+
+        }
+        canvas.ontouchmove = function () {
+
+        }
+        canvas.ontouchend = function () {
+
         }
     }
 
-    canvas.onmouseup = function (e) {
-        using = false;
-    }
 
-    eraser.onclick = function () {
-        eraserEnable = true;
-        actions.className = 'actions x'
 
-    }
-    brush.onclick = function () {
-        eraserEnable = false;
-        actions.className = 'actions'
-    }
 }
 
 function autoSetCanvasSize(canvas) {
