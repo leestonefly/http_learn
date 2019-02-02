@@ -13,8 +13,9 @@ function litenToMouse(canvas) {
         x: undefined,
         y: undefined
     }
+    //特性检测
 
-    if (document.body.ontouchstart !== undefined) {
+    if (document.body.ontouchstart === undefined) {
         canvas.onmousedown = function (e) {
 
             var x = e.clientX;
@@ -53,27 +54,54 @@ function litenToMouse(canvas) {
             using = false;
         }
 
-        eraser.onclick = function () {
-            eraserEnable = true;
-            actions.className = 'actions x'
 
-        }
-        brush.onclick = function () {
-            eraserEnable = false;
-            actions.className = 'actions'
-        }
     } else {
-        canvas.ontouchstart = function () {
-
+        canvas.ontouchstart = function (e) {
+            console.log(e)
+            var x = e.touches.clientX;
+            var y = e.touches.clientY;
+            using = true;
+            if (eraserEnable) {
+                ctx.clearRect(x - 5, y - 5, 10, 10)
+            } else {
+                lastPoint = {
+                    'x': x,
+                    'y': y
+                };
+            }
         }
-        canvas.ontouchmove = function () {
-
+        canvas.ontouchmove = function (e) {
+            var x = e.touches.clientX;
+            var y = e.touches.clientY;
+            if (!using) {
+                return
+            };
+            if (eraserEnable) {
+                ctx.clearRect(x - 5, y - 5, 10, 10)
+            } else {
+                var newPoint = {
+                    'x': x,
+                    'y': y
+                }
+                drawCircle(x, y, 1)
+                drawLine(lastPoint.x, lastPoint.y, newPoint.x, newPoint.y)
+                lastPoint = newPoint;
+            }
         }
-        canvas.ontouchend = function () {
-
+        canvas.ontouchend = function (e) {
+            using = false;
         }
+
     }
+    eraser.onclick = function () {
+        eraserEnable = true;
+        actions.className = 'actions x'
 
+    }
+    brush.onclick = function () {
+        eraserEnable = false;
+        actions.className = 'actions'
+    }
 
 
 }

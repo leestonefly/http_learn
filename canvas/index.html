@@ -6,17 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>canvas</title>
     <link rel="stylesheet" href="./style.css">
-
+    
 </head>
 
 <body>
     <canvas id="canvas"></canvas>
-    <div id="actions" class="actions" >
-        <button id="eraser">橡皮擦</button>
-        <button id="brush">画笔</button>
+    <div id="actions" class="actions">
+        <svg class="icon" id="eraser">
+            <use xlink:href="#icon-ERASER"></use>
+        </svg>
+        <svg class="icon" id="brush">
+            <use xlink:href="#icon-pen"></use>
+        </svg>
+        <!-- <button id="eraser">橡皮擦</button>
+        <button id="brush">画笔</button> -->
     </div>
 
-<script src="./main.js"></script>
+
+    <script src="./main.js"></script>
+    <script src="//at.alicdn.com/t/font_1038845_nel8mzr20qj.js"></script>
 </body>
 
 </html>
