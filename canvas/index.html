@@ -6,25 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>canvas</title>
     <link rel="stylesheet" href="./style.css">
-    
+
 </head>
 
 <body>
     <canvas id="canvas"></canvas>
     <div id="actions" class="actions">
+        <svg class="icon active" id="pen">
+            <use xlink:href="#icon-pen"></use>
+        </svg>
         <svg class="icon" id="eraser">
             <use xlink:href="#icon-ERASER"></use>
         </svg>
-        <svg class="icon" id="brush">
-            <use xlink:href="#icon-pen"></use>
+        <svg class="icon" id="clear">
+            <use xlink:href="#icon-clear"></use>
         </svg>
+        <svg class="icon" id="save">
+            <use xlink:href="#icon-save"></use>
+        </svg>
+        <ol id="colors" class="colors">
+            <li id="black" class="black active"></li>
+            <li id="red" class="red"></li>
+            <li id="green" class="green"></li>
+            <li id="blue" class="blue"></li>
+        </ol>
+        <ol class="sizes">
+            <li id="thin" class="thin x"></li>
+            <li id="thick" class="thick"></li>
+        </ol>
+
         <!-- <button id="eraser">橡皮擦</button>
         <button id="brush">画笔</button> -->
     </div>
 
 
     <script src="./main.js"></script>
-    <script src="//at.alicdn.com/t/font_1038845_nel8mzr20qj.js"></script>
+    <script src="//at.alicdn.com/t/font_1038845_4werxy4x6n9.js"></script>
 </body>
 
 </html>
