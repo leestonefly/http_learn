@@ -4,7 +4,8 @@
 	box-sizing: border-box;
 }
 
-ol, ul {
+ol,
+ul {
 	list-style: none;
 }
 
@@ -25,7 +26,6 @@ hr {
 a {
 	text-decoration: none;
 	color: black;
-
 }
 
 .clearfix::after {
@@ -35,15 +35,25 @@ a {
 }
 
 .topNavBar {
+	color: #b7b7b7;
 	padding: 20px 0 20px 0;
 	position: fixed;
 	top: 0;
 	margin: 0;
 	width: 100%;
+	transition: all .5s;
+}
+
+.topNavBar.sticky {
+	background: white;
+	padding: 10px 0;
+	z-index: 1;
+	box-shadow: 0px 3px 10px 0px rgba(50, 50, 50, 0.5);
+	color: #3d4451;
 }
 
 .topNavBar-inner {
-	padding: 0 16px 0 16px;
+	padding: 0 16px;
 }
 
 .topNavBar .logo {
@@ -56,7 +66,6 @@ a {
 .topNavBar .logo .rs {
 	color: #e6686a;
 	margin-right: 4px;
-
 }
 
 .topNavBar .logo .card {
@@ -64,44 +73,64 @@ a {
 }
 
 .topNavBar nav {
-	/*font-size: 13px;*/
-	padding-top: 7px;
-	/*padding-bottom: 8px;*/
-}
-
-.topNavBar nav a {
-	color: #b7b7b7;
-	text-decoration: none;
-	font-weight: bold;
-	font-size: 12px;
-	border-top: 3px solid transparent;
-	border-bottom: 3px solid transparent;
 	padding-top: 5px;
-	padding-bottom: 5px;
-	display: block;
-
 }
 
-.topNavBar nav ul {
+.topNavBar nav>ul {
 	list-style: none;
 	padding: 0;
 	margin: 0;
 }
 
-.topNavBar nav ul > li {
+.topNavBar nav>ul>li {
 	float: left;
 	margin-left: 17px;
 	margin-right: 17px;
+	position: relative;
 }
 
-.topNavBar nav ul > li > a {
+.topNavBar nav>ul>li>a {
+	font-size: 12px;
+	color: inherit;
+	font-weight: bold;
+	border-top: 3px solid transparent;
 	border-bottom: 3px solid transparent;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	display: block;
+	position: relative;
 }
 
-.topNavBar nav ul > li > a:hover {
-	border-bottom-color: #DC6465;
+.topNavBar nav>ul>li>a:hover::after {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	background: #e06567;
+	height: 3px;
+	animation: menuSlide all 1s;
 }
 
+@keyframes menuSlide {
+	0% {
+		widows: 0;
+	}
+
+	100% {
+		widows: 100%;
+	}
+}
+.topNavBar .submenu{
+	display: none;
+	position: absolute;
+
+}
+.topNavBar .submenu .active{
+	display: block;
+
+}
 .banner {
 	height: 515px;
 	background: url(./images/rs-cover.jpg);
@@ -121,7 +150,6 @@ a {
 	margin-right: auto;
 	background-color: #FFFFFF;
 	box-shadow: 0px 2px 2px 0px rgba(155, 139, 118, 1);
-
 }
 
 .userCard .pictureAndText {
@@ -129,7 +157,6 @@ a {
 	flex-flow: row;
 	/*justify-content: space-around;*/
 	padding: 50px;
-
 }
 
 .userCard .welcome {
@@ -142,7 +169,6 @@ a {
 	/*width: 70px;*/
 	/*text-align: center;*/
 	position: relative;
-
 }
 
 .userCard .welcome .triangle {
@@ -173,7 +199,8 @@ a {
 	flex-flow: row wrap;
 }
 
-.text dl dd, .text dl dt {
+.text dl dd,
+.text dl dt {
 	padding: 5px 0;
 }
 
@@ -196,9 +223,7 @@ a {
 	width: 30px;
 	height: 30px;
 	color: white;
-
 	vertical-align: top;
-
 }
 
 /*.userCard .media{*/
@@ -221,7 +246,6 @@ a {
 .download {
 	display: flex;
 	justify-content: center;
-
 }
 
 .downloadButton {
@@ -236,7 +260,6 @@ a {
 	color: #3d4451;
 	font-weight: bold;
 	transition: box-shadow 0.3s;
-
 }
 
 .downloadButton:hover {
@@ -260,12 +283,10 @@ section.skills {
 	max-width: 940px;
 	margin-left: auto;
 	margin-right: auto;
-
-
 }
 
-section.portfolio > h2,
-section.skills > h2 {
+section.portfolio>h2,
+section.skills>h2 {
 	text-align: center;
 	line-height: 1.8;
 	font-size: 34px;
@@ -278,7 +299,6 @@ section.skills .skillsList {
 	box-shadow: 0px 2px 2px 0px rgba(155, 139, 118, 1);
 	display: flex;
 	justify-content: center;
-
 }
 
 section.skills ol {
@@ -306,79 +326,80 @@ section.skills .progressIT {
 }
 
 .portfolio nav {
-
 	display: inline-block;
 	vertical-align: top;
 }
 
-.portfolio nav > ol {
+.portfolio nav>ol {
 	margin: 0 auto;
 	display: inline-block;
 	vertical-align: top;
 }
 
-.portfolio nav > ol > li {
+.portfolio nav>ol>li {
 	float: left;
 	margin: 20px;
-	cursor: pointer;  //手型变换
-
+	cursor: pointer;
+	/*手型变换*/
 }
-.portfolio nav{
 
-}
-.portfolio{
+/* .portfolio nav{  } */
+.portfolio {
 	text-align: center;
 }
-.portfolio .bar{
+
+.portfolio .bar {
 	height: 5px;
 	border-radius: 2px;
 	background: white;
 	margin-top: 10px;
 	margin-bottom: 100px;
-
 }
 
-.portfolio .bar .bar-inner{
+.portfolio .bar .bar-inner {
 	height: 100%;
 	background: #e6686a;
 	border-radius: 2px;
 	transition: all 0.3s;
 }
 
-.portfolio .bar.state-1 .bar-inner{
+.portfolio .bar.state-1 .bar-inner {
 	margin-left: 0;
 	width: 52%;
 }
 
-.portfolio .bar.state-2 .bar-inner{
+.portfolio .bar.state-2 .bar-inner {
 	margin-left: 61%;
 	width: 19%;
 }
 
-.portfolio .bar.state-3 .bar-inner{
+.portfolio .bar.state-3 .bar-inner {
 	margin-left: 85%;
 	width: 15%;
 }
-.portfolio .jobs{
+
+.portfolio .jobs {
 	position: relative;
 	height: 597px;
 }
-.portfolio .jobs> .big{
+
+.portfolio .jobs>.big {
 	position: absolute;
 	top: 0;
 	left: 0;
 	margin-bottom: 100px;
 }
-.portfolio .jobs> .small
-{
-	position: absolute;
 
+.portfolio .jobs>.small {
+	position: absolute;
 }
-#top{
+
+#top {
 	top: 0;
-	left:650px;
+	left: 650px;
 }
-#down{
+
+#down {
 	top: 312px;
-	left:650px;
+	left: 650px;
 }
