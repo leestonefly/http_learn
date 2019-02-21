@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0dbb985-6e27-431d-82c1-1a9257b8c70e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="e0dbb985-6e27-431d-82c1-1a9257b8c70e" name="Default" comment="webstorm">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resume/a.css" beforeDir="false" afterPath="$PROJECT_DIR$/resume/a.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resume/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/resume/index.html" afterDir="false" />
@@ -21,8 +20,18 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resume/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="323" column="27" selection-start-line="323" selection-start-column="27" selection-end-line="323" selection-end-column="27" />
+            <state relative-caret-position="218">
+              <caret line="330" column="12" selection-start-line="330" selection-start-column="12" selection-end-line="330" selection-end-column="12" />
+              <folding>
+                <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#p#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="e#8332#8386#0" />
+                <element signature="e#8699#8969#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -30,8 +39,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resume/a.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="137" column="32" lean-forward="true" selection-start-line="137" selection-start-column="32" selection-end-line="137" selection-end-column="32" />
+            <state relative-caret-position="259">
+              <caret line="361" column="33" lean-forward="true" selection-start-line="361" selection-start-column="33" selection-end-line="361" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -56,6 +65,7 @@
       <find>guessField</find>
       <find>remark</find>
       <find>cur</find>
+      <find>progr</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -165,7 +175,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -208,7 +218,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1539826111884</updated>
-      <workItem from="1550647283798" duration="3441000" />
+      <workItem from="1550647283798" duration="3678000" />
+      <workItem from="1550713026790" duration="14564000" />
     </task>
     <task id="LOCAL-00001" summary="1.0">
       <created>1539842014361</created>
@@ -329,11 +340,18 @@
       <option name="project" value="LOCAL" />
       <updated>1548404415278</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="webstorm">
+      <created>1550650905246</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1550650905246</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3441000" />
+    <option name="totallyTimeSpent" value="18242000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -348,7 +366,7 @@
     <frame x="55" y="-7" width="1488" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.108815424" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.108815424" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -357,12 +375,12 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32929516" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4993113" weight="0.32841823" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32911393" />
-      <window_info anchor="bottom" id="Version Control" order="11" weight="0.15633424" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.4972452" visible="true" weight="0.12600537" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5027548" side_tool="true" weight="0.32841823" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.4075067" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32929516" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -453,7 +471,8 @@
     <MESSAGE value="jQuery learn 2019-0102" />
     <MESSAGE value="nav dome complete" />
     <MESSAGE value="canvas" />
-    <option name="LAST_COMMIT_MESSAGE" value="canvas" />
+    <MESSAGE value="webstorm" />
+    <option name="LAST_COMMIT_MESSAGE" value="webstorm" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/list-css.html" />
@@ -743,15 +762,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resume/a.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="137" column="32" lean-forward="true" selection-start-line="137" selection-start-column="32" selection-end-line="137" selection-end-column="32" />
+        <state relative-caret-position="259">
+          <caret line="361" column="33" lean-forward="true" selection-start-line="361" selection-start-column="33" selection-end-line="361" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resume/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="323" column="27" selection-start-line="323" selection-start-column="27" selection-end-line="323" selection-end-column="27" />
+        <state relative-caret-position="218">
+          <caret line="330" column="12" selection-start-line="330" selection-start-column="12" selection-end-line="330" selection-end-column="12" />
+          <folding>
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#p#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#8332#8386#0" />
+            <element signature="e#8699#8969#0" />
+          </folding>
         </state>
       </provider>
     </entry>
